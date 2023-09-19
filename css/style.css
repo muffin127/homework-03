@@ -51,7 +51,7 @@ a {
   gap: 40px;
 }
 .menu-link {
-  padding: 24px 0;
+  padding-top: 24px;
 }
 
 .navigation {
@@ -69,9 +69,10 @@ a {
 .navigation:focus {
   color: #404bbf;
 }
-
-.address-header {
+.address {
   font-style: normal;
+}
+.address-header {
   display: flex;
   gap: 40px;
 }
