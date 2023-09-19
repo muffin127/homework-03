@@ -69,6 +69,7 @@ a {
 .navigation:focus {
   color: #404bbf;
 }
+
 .address {
   font-style: normal;
 }
@@ -244,10 +245,10 @@ a {
 }
 
 .container-link {
+  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .hero-section_hthreefour {
