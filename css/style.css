@@ -285,6 +285,7 @@ a {
 .logo-accent_two {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
+  display: inline-block;
 }
 .text-footer {
   color: #f4f4fd;
