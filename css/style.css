@@ -243,7 +243,7 @@ a {
   border-top: none;
 }
 
-.hero-section_hthreefour {
+.header-hero {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -251,7 +251,7 @@ a {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.hero-section_pfour {
+.class-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
