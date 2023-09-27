@@ -283,7 +283,7 @@ a {
   letter-spacing: 0.54px;
   text-decoration: none;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-accent_two {
