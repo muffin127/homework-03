@@ -53,8 +53,6 @@ a {
   display: flex;
   gap: 40px;
 }
-.menu-link {
-}
 
 .navigation {
   color: #2e2f42;
@@ -139,15 +137,7 @@ a {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+  visibility: hidden;
 }
 .list-class {
   display: flex;
@@ -248,7 +238,6 @@ a {
 }
 
 .container-link {
-  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -275,7 +264,6 @@ a {
 }
 
 .logo-two {
-  display: inline-block;
   color: var(--color-blue);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -284,12 +272,12 @@ a {
   letter-spacing: 0.54px;
   text-decoration: none;
   text-transform: uppercase;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-accent_two {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
-  display: inline-block;
 }
 .text-footer {
   color: #f4f4fd;
