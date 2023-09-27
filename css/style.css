@@ -42,6 +42,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-accent {
@@ -275,7 +276,16 @@ a {
 }
 
 .logo-two {
+  color: var(--color-blue);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-decoration: none;
+  text-transform: uppercase;
   display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-accent_two {
   color: #f4f4fd;
