@@ -54,6 +54,7 @@ a {
 .menu-header {
   display: flex;
   gap: 40px;
+  list-style: none;
 }
 
 .navigation {
@@ -79,6 +80,7 @@ a {
 .address-list {
   display: flex;
   gap: 40px;
+  list-style: none;
 }
 
 .address-link {
@@ -158,6 +160,7 @@ a {
 .list-class {
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 
 .hero-li {
@@ -200,6 +203,7 @@ a {
 .list-hero {
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 .list-item {
   width: calc((100% - 72px) / 4);
@@ -247,6 +251,7 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style: none;
 }
 
 .hero-list-item {
