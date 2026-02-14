@@ -161,6 +161,12 @@ ul {
   padding: 120px 0;
 }
 
+.container-two {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
