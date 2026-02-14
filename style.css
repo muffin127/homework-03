@@ -209,6 +209,12 @@ ul {
   background-color: #f4f4fd;
 }
 
+.container-three {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .headline {
   font-size: 36px;
   line-height: 1.11;
