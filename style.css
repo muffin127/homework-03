@@ -120,6 +120,16 @@ ul {
   background-color: var(--color-brand);
   padding: 188px 0;
 }
+
+.container-one {
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-direction: column; 
+  gap: 48px;
+}
+
 .hero-title {
   color: var(--color-praymeri);
   font-size: 56px;
@@ -289,17 +299,17 @@ ul {
 
 .list-myhero {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  column-gap: 24px; 
-  row-gap: 48px; 
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 48px;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
 .hero-list-item {
-  flex: 0 0 calc((100% - 48px) / 3); 
-  box-sizing: border-box; 
+  flex: 0 0 calc((100% - 48px) / 3);
+  box-sizing: border-box;
   background-color: #ffffff;
 }
 
