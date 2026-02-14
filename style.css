@@ -1,10 +1,16 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 :root {
   --color-blue: #4d5ae5;
   --color-brand: #2e2f42;
   --color-praymeri: #ffffff;
 }
 
- /* Body */
+/* Body */
 .img-class {
   display: block;
 }
@@ -17,7 +23,7 @@
 }
 
 a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
@@ -45,7 +51,7 @@ ul {
   display: flex;
   align-items: center;
 }
- /* Logo */
+/* Logo */
 .logo {
   color: var(--color-blue);
   font-family: "Raleway", sans-serif;
@@ -64,7 +70,7 @@ ul {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
- 
+
 /* Navigation */
 .navigation {
   color: #2e2f42;
@@ -83,7 +89,7 @@ ul {
   color: #404bbf;
 }
 
- /* Address */
+/* Address */
 .address {
   font-style: normal;
 }
@@ -253,6 +259,12 @@ ul {
   padding-bottom: 120px;
 }
 
+.container-four {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .headline-class {
   color: #2e2f42;
   font-size: 36px;
@@ -262,15 +274,21 @@ ul {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .list-myhero {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  column-gap: 24px; 
+  row-gap: 48px; 
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .hero-list-item {
-  width: calc((100% - 48px) / 3);
+  flex: 0 0 calc((100% - 48px) / 3); 
+  box-sizing: border-box; 
+  background-color: #ffffff;
 }
 
 .container-link {
