@@ -41,6 +41,12 @@ ul {
   list-style: none;
 }
 
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .img-class {
   display: block;
   width: 100%;
@@ -58,7 +64,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container-header {
+.header .container{
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -151,7 +157,7 @@ ul {
   padding: 188px 0;
 }
 
-.container-one {
+.section-one .container {
   display: flex;
   max-width: 1158px;
   margin: 0 auto;
@@ -202,7 +208,7 @@ ul {
   padding: 120px 0;
 }
 
-.container-two {
+.section-two .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -255,7 +261,7 @@ ul {
   background-color: #f4f4fd;
 }
 
-.container-three {
+.section-three .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -314,7 +320,7 @@ ul {
   padding: 120px 0;
 }
 
-.container-four {
+.section-four .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -330,7 +336,7 @@ ul {
   margin-bottom: 72px;
 }
 
-.list-myhero {
+.list-one-hero {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 24px;
@@ -375,7 +381,7 @@ ul {
   padding: 100px 0;
 }
 
-.container-footer {
+.footer .container {
   display: flex;
   flex-direction: column;
   gap: 16px;
