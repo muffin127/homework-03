@@ -64,7 +64,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header .container{
+.header .container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -126,7 +126,7 @@ ul {
   display: block;
   font-style: normal;
   white-space: nowrap;
-  margin-right: 156px;
+  margin-left: auto;
 }
 
 .address-list {
@@ -249,7 +249,7 @@ ul {
 .hero-p {
   color: #434455;
   letter-spacing: 0.02em;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
   font-size: 16px;
@@ -293,7 +293,7 @@ ul {
 }
 
 .box-class {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .title-hero {
@@ -385,7 +385,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-left: 156px;
 }
 
 .logo-two {
